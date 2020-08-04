@@ -1,0 +1,2 @@
+corpus/plaintext/cross-mx-plaintext.txt filter=lfs diff=lfs merge=lfs -text
+corpus/csv/cross.csv filter=lfs diff=lfs merge=lfs -text
