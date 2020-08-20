@@ -1,6 +1,13 @@
 # mixtec-multilingual-corpus
+Ugur Yavuz, August 2020
 
-The ``mixtec-multilingual-corpus`` contains sentences from more than 20 varieties of Mixtec into English and Spanish. This corpus was originally compiled by a team of researchers from UNAM [(Montaño et al., 2019)](https://www.semanticscholar.org/paper/A-Mixtec-Spanish-Parallel-Corpus-Monta%C3%B1o-Sierra/391a89b6f373a9b28e96aac39ee241f808de9d82), whose work is available [online](http://www.geco.unam.mx/concordance_paralle). I gathered the documents by querying this database, scraped their metadata, cleaned them and translated the Spanish ones into English.
+This is a Mixtec-Spanish-English bilingual corpus I compiled during my internship at the [Natural Language Group @ ISI](https://nlg.isi.edu/) under the supervision of Dr. Jonathan May.
+
+The corpus contains sentences from more than 20 varieties of Mixtec into English and Spanish. This corpus was originally compiled by a team of researchers from UNAM [(Montaño et al., 2019)](https://www.semanticscholar.org/paper/A-Mixtec-Spanish-Parallel-Corpus-Monta%C3%B1o-Sierra/391a89b6f373a9b28e96aac39ee241f808de9d82), whose work is available [online](http://www.geco.unam.mx/concordance_paralle). I gathered the documents by querying this database, scraped their metadata, cleaned them and translated the Spanish ones into English.
+
+## Important
+
+* You should install [Git LFS](https://git-lfs.github.com/) in order to be able to download all the files in the corpus. After installation, make sure you have set up Git LFS for your user account by running ``git lfs install``.
 
 ## Structure
 
@@ -18,7 +25,3 @@ The ``mixtec-multilingual-corpus`` contains sentences from more than 20 varietie
 ## Notes
 
 Certain Spanish documents have multiple variants, and many Mixtec documents have numerous [varieties](https://en.wikipedia.org/wiki/Classification_of_Mixtec_languages). In consideration of this, I created two versions of the corpus: files that begin with the prefix ``single`` use a single Spanish variant/Mixtec variety pairing (Spanish documents are prioritized alphabetically, and Mixtec varieties are prioritized by frequency in corpus), and files that begin with ``cross`` use the cross product between all Spanish variants and Mixtec varieties, meaning that the same document can be repeated many times.
-
-
-## TODO
-* Clean all before ``..)`` across Mixtec documents.
