@@ -1,7 +1,7 @@
 # mixtec-multilingual-corpus
 Ugur Yavuz, August 2020
 
-This is a Mixtec-Spanish-English bilingual corpus I compiled during my internship at the [Natural Language Group @ ISI](https://nlg.isi.edu/) under the supervision of Dr. Jonathan May.
+This is a Mixtec-Spanish-English multilingual corpus I compiled during my internship at the [Natural Language Group @ ISI](https://nlg.isi.edu/) under the supervision of Dr. Jonathan May.
 
 The corpus contains sentences from more than 20 varieties of Mixtec into English and Spanish. This corpus was originally compiled by a team of researchers from UNAM [(Montaño et al., 2019)](https://www.semanticscholar.org/paper/A-Mixtec-Spanish-Parallel-Corpus-Monta%C3%B1o-Sierra/391a89b6f373a9b28e96aac39ee241f808de9d82), whose work is available [online](http://www.geco.unam.mx/concordance_paralle). I gathered the documents by querying this database, scraped their metadata, cleaned them and translated the Spanish ones into English.
 
