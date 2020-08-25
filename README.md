@@ -25,3 +25,5 @@ The corpus contains sentences from more than 20 varieties of Mixtec into English
 ## Notes
 
 * Certain Spanish documents have multiple variants, and many Mixtec documents have numerous [varieties](https://en.wikipedia.org/wiki/Classification_of_Mixtec_languages). In consideration of this, I created two versions of the corpus: files that begin with the prefix ``single`` use a single Spanish variant/Mixtec variety pairing (Spanish documents are prioritized alphabetically, and Mixtec varieties are prioritized by frequency in corpus), and files that begin with ``cross`` use the cross product between all Spanish variants and Mixtec varieties, meaning that the same document can be repeated many times.
+
+* The version of the corpus annotated ``single`` contains 18397 distinct tokens and 11728 sentences. ``cross`` contains 69956 distinct tokens and 273699 sentences.
